@@ -1,38 +1,37 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=PT+Mono&family=PT+Sans:ital@1&family=Play&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
   text-align: center;
+  font-family: "Cairo", sans-serif;
+  font-family: "Play", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: grey;
+  color: lime;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.headingSection {
+  margin-top: 40px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btnSection {
+  margin-top: 20px;
 }
-
-.App-link {
-  color: #61dafb;
+.heading h1 {
+  font-size: 45px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#btn {
+  padding: 10px 20px;
+  background-color: black;
+  color: lime;
+}
+.promt {
+  display: none;
+  margin-top: 30px;
+}
+.promt p {
+  font-size: 18px;
 }
