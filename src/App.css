@@ -11,7 +11,7 @@
 
 body {
   background-color: grey;
-  color: lime;
+  color: #ffff;
 }
 
 .headingSection {
@@ -26,7 +26,8 @@ body {
 #btn {
   padding: 10px 20px;
   background-color: black;
-  color: lime;
+  color: #ffff;
+  margin-top: 20px;
 }
 .promt {
   display: none;
@@ -34,4 +35,14 @@ body {
 }
 .promt p {
   font-size: 18px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 45px;
+  /* gap: 120px; */
+  display: none;
+  transition: 5s;
 }
